@@ -1,0 +1,8 @@
+{
+  "name": "Cinnamoroll To-Do",
+  "description": "A lightweight, Cinnamoroll-themed desktop To-Do list UI built for Electron.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

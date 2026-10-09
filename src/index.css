@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Lexend', sans-serif;
+  --color-cinna-blue: #C4E4FF;
+  --color-cinna-blue-dark: #8BB8EA;
+  --color-cinna-pink: #FFDEE9;
+  --color-cinna-pink-dark: #F7B5CA;
+  --color-cinna-bg: #F5FAFF;
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: transparent;
+  overflow: hidden; /* Desktop apps usually hide body overflow */
+}
+
+/* Electron drag regions */
+.drag-region {
+  -webkit-app-region: drag;
+}
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* Custom Scrollbar for tasks */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #B9E0F7;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A3D4F2;
+}
